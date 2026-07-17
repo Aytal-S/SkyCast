@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".userdetails">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Enter Your"
+                android:gravity="center"
+                android:textColor="#0288D1"
+                android:textStyle="bold"
+                android:textSize="32sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Information"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="#37474F"
+                android:textSize="32sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Full Name"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="5dp"
+                android:textColor="#37474F"/>
+
+            <EditText
+                android:id="@+id/etFullName"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="8dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:drawableStart="@drawable/user_profile_person_svgrepo_com"
+                android:drawablePadding="15dp"
+                android:background="@drawable/bg_input_field"
+                android:textColor="@color/black"
+                android:textColorHint="#565657"
+                android:hint="Enter Full Name"
+                android:inputType="textPersonName"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Location"
+                android:gravity="center"
+                android:layout_marginStart="5dp"
+                android:textColor="#37474F"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+            <EditText
+                android:id="@+id/location"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="8dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:drawableStart="@drawable/location_pin_map_svgrepo_com"
+                android:drawablePadding="15dp"
+                android:background="@drawable/bg_input_field"
+                android:textColor="@color/black"
+                android:textColorHint="#565657"
+                android:hint="Enter your current location"
+                android:inputType="textEmailAddress"/>
+
+        </LinearLayout>
+
+
+    <Button
+        android:id="@+id/Continuebtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="140dp"
+        android:backgroundTint="#0288D1"
+        android:text="Continue"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:cornerRadius="15dp" />
+
+</RelativeLayout>

@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e4f0e7"
+    tools:context=".hourlyforcast">
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingHorizontal="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hourly Forecast"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/img_6"
+            android:contentDescription="Hourly forecast icon" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:text="Now"
+            android:id="@+id/tvTime1"
+            android:paddingLeft="15dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imgHour1"
+            android:src="@drawable/img_4" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="24°C"
+            android:id="@+id/tvTemp1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:text="11 AM"
+            android:id="@+id/tvTime2"
+            android:paddingLeft="15dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imgHour2"
+            android:src="@drawable/img_4" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="25°C"
+            android:id="@+id/tvTemp2"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:text="12 PM"
+            android:id="@+id/tvTime3"
+            android:paddingLeft="15dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imgHour3"
+            android:src="@drawable/img_3" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="26°C"
+            android:id="@+id/tvTemp3"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:text="1 PM"
+            android:id="@+id/tvTime4"
+            android:paddingLeft="15dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imgHour4"
+            android:src="@drawable/img_3" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="27°C"
+            android:gravity="center"
+            android:id="@+id/tvTemp4"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:text="2 PM"
+            android:id="@+id/tvTime5"
+            android:paddingLeft="15dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imgHour5"
+            android:src="@drawable/img_4" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="28°C"
+            android:id="@+id/tvTemp5"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:text="3 PM"
+            android:id="@+id/tvTime6"
+            android:paddingLeft="15dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imgHour6"
+            android:src="@drawable/img_3" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="27°C"
+            android:id="@+id/tvTemp6"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:text="4 PM"
+            android:paddingLeft="15dp"
+            android:id="@+id/tvTime7"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imgHour7"
+            android:src="@drawable/img_3" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/tvTemp7"
+            android:text="26°C"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:text="5 PM"
+            android:paddingLeft="15dp"
+            android:id="@+id/tvTime8"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imgHour8"
+            android:src="@drawable/img" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/tvTemp8"
+            android:text="25°C"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

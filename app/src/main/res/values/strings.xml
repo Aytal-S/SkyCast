@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="onboarding_title">Weather Insights</string>
+    <string name="onboarding_subtitle">Stay ahead of the weather with \nreal-time updates and daily forecasts.</string>
+    <string name="get_started">Get Started</string>
+</resources>
